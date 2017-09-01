@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1B03D527-A161-1B9B-EE50-4EC87F4F2ECE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\CircularProgressIndicatorEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\DragEventSenderEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\EasyTweenEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\LinearProgressIndicatorEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialAppBarEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialBaseEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialButtonEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialCheckboxEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialDropdownEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialInputFieldEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialRadioEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialRippleEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialScreenEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialSliderEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialSwitchEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\MaterialToggleBaseEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\RectTransformSnapEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\ScreenViewEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\ShadowGeneratorEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabItemEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabPageEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TabViewEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\TweenManagerEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Custom Inspectors\VectorImageEditor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PostProcessors\GeneratedShadowPostProcessor.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\ImageDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\OptionDataListPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\RippleDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\PropertyDrawers\VectorImageDataPropertyDrawer.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\InspectorFields.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\MaterialUIDataTool.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\MaterialUIEditorTools.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserFontastic.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserFontello.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\File\Editor\VectorImageFileParserIcoMoon.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\VectorImageFontParser.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserBrandico.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserCommunityMD.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserFontAwesome.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserFontelico.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserIcoMoon.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserIonicons.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserJustVector.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserKenney.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserMapVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserMaterialDesign.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserOpenIconic.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserOpenWebVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserPayment.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserSocialicious.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Parser\Web\VectorImageParserWeatherVectorImages.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportCustomFontSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportFontParametersSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\Sections\ImportWebFontSection.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\VectorImageManagerWindow.cs" />
+     <Compile Include="Assets\MaterialUI\Editor\Tools\Vector Image Manager\VectorImagePickerWindow.cs" />
+     <Compile Include="Assets\MaterialUI\Utils\Editor\UnityZip\Zip.cs" />
+     <None Include="Assets\MaterialUI\README.txt" />
+     <None Include="Assets\Spaceship Pack\Shaders\Fresnel.shader" />
+     <None Include="Assets\MaterialUI\Fonts\Roboto\NOTICE.txt" />
+     <None Include="Assets\MaterialUI\Materials\SignedDistanceFieldUI.shader" />
+     <None Include="Assets\MaterialUI\Fonts\Resources\Material Design Icons\LICENSE.txt" />
+     <None Include="Assets\MaterialUI\CHANGELOG.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip">
+ <HintPath>D:/grz/润舟办公/unity project/UnityGroundControl/Assets/MaterialUI/Utils/Editor/UnityZip/Ionic.Zip.dll</HintPath>
+ </Reference>
+ <Reference Include="MAVLink">
+ <HintPath>D:/grz/润舟办公/unity project/UnityGroundControl/Assets/Plugins/MAVLink.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+ <HintPath>D:/grz/润舟办公/unity project/UnityGroundControl/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+ <HintPath>D:/grz/润舟办公/unity project/UnityGroundControl/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>E:/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

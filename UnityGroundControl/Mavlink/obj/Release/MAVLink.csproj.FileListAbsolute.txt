@@ -1,0 +1,5 @@
+D:\grz\hll\c#\mavlink\mtest2\mtest2\Mavlink\bin\Release\MAVLink.dll
+D:\grz\hll\c#\mavlink\mtest2\mtest2\Mavlink\bin\Release\MAVLink.pdb
+D:\grz\hll\c#\mavlink\mtest2\mtest2\Mavlink\obj\Release\MAVLink.csprojResolveAssemblyReference.cache
+D:\grz\hll\c#\mavlink\mtest2\mtest2\Mavlink\obj\Release\MAVLink.dll
+D:\grz\hll\c#\mavlink\mtest2\mtest2\Mavlink\obj\Release\MAVLink.pdb
